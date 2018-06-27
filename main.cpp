@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 // Anpassen!
-#define IMAGE_PATH "/home/johann/CLionProjects/ext2reader_1/bsyfile"
+#define IMAGE_PATH "/home/johann/CLionProjects/ext2reader_git/bsyfile"
 
 #define BASE_OFFSET 1024
 #define BLOCK_OFFSET(block) ( BASE_OFFSET + ( block - 1) * block_size )
